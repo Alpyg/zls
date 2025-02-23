@@ -27,7 +27,7 @@
   in eachSystem systems (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
-        zig = zig-overlay.packages.${system}.master;
+        zig = zig-overlay.packages.${system}.master-mach;
         gitignoreSource = gitignore.lib.gitignoreSource;
       in
       rec {
