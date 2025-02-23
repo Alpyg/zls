@@ -3,7 +3,7 @@
     {
       nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
 
-      zig-overlay.url = "github:mitchellh/zig-overlay";
+      zig-overlay.url = "github:Alpyg/zig-overlay";
       zig-overlay.inputs.nixpkgs.follows = "nixpkgs";
 
       gitignore.url = "github:hercules-ci/gitignore.nix";
